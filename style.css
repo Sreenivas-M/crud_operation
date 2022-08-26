@@ -1,0 +1,135 @@
+
+/* 
+table{
+    width: 75%;
+    margin: 40px auto;
+    background: rgb(124,154,167);
+}
+input[type="text"],input[type="number"],input[type=email]{
+    width:92%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+ */
+ .details{
+    width: 65%;
+    margin: 40px auto;
+    background: rgb(124,154,167);
+    border-radius: 20px;
+ }
+ .details>h1{
+    text-align: center;    
+    padding: 10px;
+
+ }
+ .details>form{
+    width: 90%;
+    margin: auto;
+ }
+
+ input[type="text"],input[type="number"],input[type=email]{
+    width:92%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;   
+}
+.form_action--button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+table.list{
+    text-align: left;
+    width: 90%;
+    margin: 40px auto;
+    background: rgb(124,154,167);
+    border: 1px solid rgb(204,200,200) ;
+}
+
+table.list>thead{
+    background: gray;
+    text-align: center;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: center;
+    padding: 8px 8px;
+}
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+#btn:hover{
+    background: orangered ;
+}
+
+@media(max-width:786px){
+    .details{
+        width: 80%;
+        margin: 40px auto;
+        background: rgb(124,154,167);
+        border-radius: 20px;
+     } 
+}
